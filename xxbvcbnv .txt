@@ -1,0 +1,62 @@
+<form>
+    <div class="container">
+        <form action="/action_page.php">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">Primer Nombre</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Tu Primer Nombre..">
+                </div>
+                <div class="col-25">
+                    <label for="fname">Segundo Nombre</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Tu Segundo Nombre..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Apellido</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Tus Apellidos..">
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Correo Electronico</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Tu correo electronico..">
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="country">Pais</label>
+                        </div>
+                        <div class="col-75">
+                            <select id="country" name="country">
+                                <option value="australia">Colombia</option>
+                                <option value="canada">Canada</option>
+                                <option value="usa">USA</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="subject">Asunto</label>
+                        </div>
+                        <div class="col-75">
+                            <textarea id="subject" name="subject" style="height:10px"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="Enviar">
+                    </div>
+
+                    <body class="reloj" onload="Reloj(); Fecha()">
+
+                        <h2 class="" id="horaActual" name="horaActual"></h2>
+                        <h3 class="" id="fechaActual" name="fechaActual"></h3>
+      
+        </form>

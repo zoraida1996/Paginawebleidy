@@ -1,0 +1,372 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.mapa{
+  box-align:center;
+}
+.direccion{
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.textos2{
+  width: 600px;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 23px;
+ position: relative;
+ right:350px;
+ left:650px;
+ bottom:250px;
+ margin: 0%;
+ }
+.textos1{
+ width: 600px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 23px;
+
+}
+* {box-sizing:border-box}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    right:30px;
+    left:650px;
+    bottom: 100px;
+    margin: 0%;
+  }
+  .mySlides  {
+    display: block;
+  }
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }    
+header{
+    width:100%
+}
+.logo{
+    width:20% ;
+    height:200px ;
+    position:relative;
+    top: 5px;
+    left:450px;
+    bottom: 30px
+}
+.textoGaleria{
+  text-align:center;
+  font-family:'Times New Roman', Times, serif;
+}
+p{
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align : left;
+    margin-left: 50px;
+}
+body{
+    background-image: url("https://i.pinimg.com/originals/dc/af/db/dcafdb4567420ea3e0c64ff376ceb4cb.jpg");
+}
+h1{
+    color:rgb(18, 18, 19);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align : left;
+    margin-left: 30px;
+    border-top: 50px
+    
+}
+h2{
+    color:violet
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align : :left;
+    margin-left: 30px;
+}
+h3{
+    color:rgb(182, 48, 182)
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align : :left;
+    margin-left: 30px;
+}
+nav{
+    background: rgba(148, 17, 148, 0.349);
+    color: rgb(12, 11, 11);
+    width: 100%;
+    height: 40px;
+    
+}
+
+ul{
+    text-align: center; 
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+   
+    
+    
+}
+li{
+    display: block;
+    padding: 10px;
+    text-decoration:none;
+    width: 100%;
+    transition: all 0.5s;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    
+   
+}
+ul li:hover {
+    background:rgb(240, 240, 233);
+    color: rgb(97, 70, 70);
+    cursor: pointer;
+}
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 25%;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+.mySlides {
+  display: none;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contacto{
+  border-radius: 50%;
+  height: 600px;
+  width: 600px;
+  background: gray;
+  position: relative;
+  left: 200px;
+  right: 100px;
+  top:10px;
+
+}
+.mayorinfo{
+  text-align: center;
+  font-size: 19px;
+}
+.parrafo{
+  text-align: left;
+  position: relative;
+  left:30px;
+  right: 250px;
+  top:200px;
+
+}
+.foto{
+  position: relative;
+  left: 100px;
+  right:100px;
+  bottom: -50px;
+  border: rgb(221, 172, 13) 40px solid;
+  border-image-source: url("../Paginawebleidy/recursos-imagenes/marco-dorado-200.png");
+  border-image-slice: 21;
+
+  padding: 10px;
+  text-align: justify;
+  
+}
+.parrafoquienessomos{
+position: relative;
+left: 480px;
+right: 600px;
+bottom: 150px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 19px;
+}
+.ensayo{
+  position: relative;
+  left: 400px;
+  right: 50px;
+  bottom: 90px;
+}
+.textoformulario{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  
+}
+.logo2{
+  position: relative;
+  width: 250px;
+}
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(10, 9, 9);
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: rgb(184, 32, 108);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+  
+}
+
+input[type=submit]:hover {
+  background-color: #8f1f99;
+}
+
+.container {
+  position: relative;
+  border-radius: 5px;
+  padding: 20px;
+  right: 250px;
+  left: 350px;
+  width: 600px;
+  top:-10px;
+  height: 50px;
+}
+
+form {
+position: relative;
+ left: 400px;
+  display: inline-block;
+
+  text-align: left;
+  width: 500px;
+ height: 50px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 3px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 3px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+} 
+.parrafogal{
+  position: relative;
+  text-align: center;
+  font-size: 23px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:chocolate;
+ 
+}
